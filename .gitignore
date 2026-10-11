@@ -1,0 +1,66 @@
+######################################################################
+# Build Tools
+
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+######################################################################
+# IDE
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### JRebel ###
+rebel.xml
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+######################################################################
+# Others
+*.log
+*.xml.versionsBackup
+*.swp
+
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
+sql/**
+!sql/schema.sql
+!sql/base_schema.sql
+!sql/nacos_config.sql
+!sql/seata.sql
+!sql/quartz.sql
+!sql/data_init.sql
+docker/*
+docs/*
+.vscode/*
+licenses/*
+/AGENTS.md
+/.claude/settings.local.json
+tools/**
+/org/springframework/statemachine/support/AbstractStateMachine.class
+/stateflow-modules/stateflow-system/src/main/resources/sql/**
+
+__pycache__
+/text2sql-demo/.env
+/text2sql-demo/data/demo.db

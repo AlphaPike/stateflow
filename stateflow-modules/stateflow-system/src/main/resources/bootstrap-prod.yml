@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        # 服务注册地址
+        server-addr: ${NACOS_SERVER_ADDR:demo-nacos:8848}
+        password: ${NACOS_PASSWORD:your_secret_here}
+        username: ${NACOS_USERNAME:nacos}
+      config:
+        server-addr: ${NACOS_SERVER_ADDR:demo-nacos:8848}
+        password: ${NACOS_PASSWORD:your_secret_here}
+        username: ${NACOS_USERNAME:nacos}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.stateflow</groupId>
+        <artifactId>stateflow-api</artifactId>
+        <version>3.6.6</version>
+    </parent>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>stateflow-api-system</artifactId>
+
+    <description>
+        stateflow-api-system系统接口模块
+    </description>
+
+    <dependencies>
+		
+        <!-- Stateflow Common Core-->
+        <dependency>
+            <groupId>com.stateflow</groupId>
+            <artifactId>stateflow-common-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.stateflow</groupId>
+            <artifactId>stateflow-common-redis</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

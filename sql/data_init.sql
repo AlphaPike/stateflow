@@ -1,0 +1,2 @@
+-- Business seed data has been removed.
+-- Load sql/ry_20250523.sql for the framework user tables, then sql/schema.sql for wf_task.

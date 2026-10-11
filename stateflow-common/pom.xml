@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.stateflow</groupId>
+        <artifactId>stateflow</artifactId>
+        <version>3.6.6</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>stateflow-common-log</module>
+        <module>stateflow-common-core</module>
+        <module>stateflow-common-redis</module>
+        <module>stateflow-common-seata</module>
+        <module>stateflow-common-swagger</module>
+        <module>stateflow-common-security</module>
+        <module>stateflow-common-sensitive</module>
+        <module>stateflow-common-datascope</module>
+        <module>stateflow-common-datasource</module>
+    </modules>
+
+    <artifactId>stateflow-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        stateflow-common通用模块
+    </description>
+
+</project>
